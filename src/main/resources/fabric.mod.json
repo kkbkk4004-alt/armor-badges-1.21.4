@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "armorbadges",
+  "version": "${version}",
+  "name": "Armor Badges",
+  "description": "Shows every player's armor pieces and their durability above their nametag.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.armorbadges.ArmorBadgesClient"
+    ]
+  },
+  "mixins": [
+    "armorbadges.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
